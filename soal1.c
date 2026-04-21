@@ -45,17 +45,17 @@ int main() {
             }
         }
     }
-    for (i=0; naskah[i] != '\0'; ++i){
-        if (buka<tutup && naskah [i]==')'){
-            for (j = i; naskah[j] != '\0'; ++j) {
-                naskah[j] = naskah[j + 1]; // Shift characters to the left to remove non-alphabetic characters
-            }
-            naskah[j] = '\0'; // Set the end of the string after removal
-            n-=1;
-            i-=1;
-            tutup -=1;
-        }
-    }
+    // for (i=0; naskah[i] != '\0'; ++i){
+    //     if (buka<tutup && naskah [i]==')'){
+    //         for (j = i; naskah[j] != '\0'; ++j) {
+    //             naskah[j] = naskah[j + 1]; // Shift characters to the left to remove non-alphabetic characters
+    //         }
+    //         naskah[j] = '\0'; // Set the end of the string after removal
+    //         n-=1;
+    //         i-=1;
+    //         tutup -=1;
+    //     }
+    // }
     int buka2 = 0;
     int idxbuka=0;
     for (i=0; naskah[i] != '\0'; ++i){
