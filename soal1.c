@@ -12,7 +12,7 @@
 #include <string.h>
 int main() {
     char naskah[100];
-    scanf("%s",naskah);
+    fgets(naskah, sizeof(naskah), stdin);
     int n = strlen(naskah);
     int buka =0;
     int tutup =0;
