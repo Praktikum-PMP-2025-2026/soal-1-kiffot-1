@@ -1,8 +1,3 @@
-#include <stdio.h>
-
-int main(void) {
-    return 0;
-}
 /** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
  *   Modul               : 2
  *   Hari dan Tanggal    : Selasa, 21 April 2026
